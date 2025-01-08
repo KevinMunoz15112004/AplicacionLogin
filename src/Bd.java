@@ -32,7 +32,7 @@ public class Bd {
         }
         catch (SQLException ex) {
             ex.printStackTrace();
-            JOptionPane.showMessageDialog(mainPanel, "Error al cargar los datos");
+            JOptionPane.showMessageDialog(mainPanel, "Error en la carga de los datos");
         }
     }
 
