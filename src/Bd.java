@@ -48,7 +48,7 @@ public class Bd {
 
         JTable tabla = new JTable();
         cargarTabla(tabla);
-        datos.add(new JScrollPane(tabla), BorderLayout.CENTER);
+        datos.add(new JScrollPane(tabla));
 
         datos.setVisible(true);
     }
